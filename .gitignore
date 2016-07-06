@@ -1,0 +1,6 @@
+.idea/
+hessianserver/target/classes/
+*.iml
+hessianclient/target/test-classes/
+hessianclient/target/classes/
+hessianserver/target/test-classes/
