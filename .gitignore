@@ -4,3 +4,8 @@ hessianserver/target/classes/
 hessianclient/target/test-classes/
 hessianclient/target/classes/
 hessianserver/target/test-classes/
+hessianspringserver/target/classes/
+service/target/test-classes/
+service/target/classes/
+hessianspringclient/target/test-classes/
+hessianspringclient/target/classes/

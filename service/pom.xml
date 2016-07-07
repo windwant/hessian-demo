@@ -7,16 +7,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.hessian.server</groupId>
-    <artifactId>hessianserver</artifactId>
+    <groupId>org.hessian.common</groupId>
+    <artifactId>service</artifactId>
     <packaging>jar</packaging>
 
-    <name>hessianserver</name>
+    <name>service</name>
     <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    
+    <dependencies>
+
+    </dependencies>
 </project>

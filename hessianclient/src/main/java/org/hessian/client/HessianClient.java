@@ -1,7 +1,7 @@
 package org.hessian.client;
 
 import com.caucho.hessian.client.HessianProxyFactory;
-import org.hessian.server.HelloService;
+import org.hessian.common.HelloService;
 
 import java.net.MalformedURLException;
 

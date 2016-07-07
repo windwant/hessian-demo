@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+       <context:property-placeholder location="classpath:config.properties"/>
+
+       <!--jetty配置-->
+       <bean name="jettyServer" class="org.eclipse.jetty.server.Server" destroy-method="stop">
+           <property name="threadPool">
+               <bean class="org.eclipse.jetty.util.thread.QueuedThreadPool">
+                   <property name="minThreads" value="${jetty.minThreads}" />
+                   <property name="maxThreads" value="${jetty.maxThreads}" />
+               </bean>
+           </property>
+           <property name="connectors">
+               <list>
+                   <bean id="connector" class="org.eclipse.jetty.server.nio.SelectChannelConnector">
+                       <property name="port" value="${jetty.port}" />
+                   </bean>
+               </list>
+           </property>
+       </bean>
+
+    <bean id="helloServer" class="org.hessian.springserver.HelloServer" init-method="start">
+              <property name="server" ref="jettyServer"/>
+              <property name="contextPath" value="${contextPath}"/>
+              <property name="webXmlPath" value="${webXmlPath}"/>
+              <property name="resourceBase" value="${resourceBase}"/>
+       </bean>
+</beans>

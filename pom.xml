@@ -8,6 +8,9 @@
   <modules>
     <module>hessianserver</module>
     <module>hessianclient</module>
+    <module>hessianspringserver</module>
+    <module>hessianspringclient</module>
+    <module>service</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -16,6 +19,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <spring.version>4.3.1.RELEASE</spring.version>
   </properties>
 
   <dependencies>
@@ -30,6 +34,24 @@
       <artifactId>hessian</artifactId>
       <version>4.0.38</version>
     </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-webmvc</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+
+      <dependency>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-maven-plugin</artifactId>
+        <version>9.3.10.M0</version>
+      </dependency>
 
   </dependencies>
 </project>

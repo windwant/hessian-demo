@@ -7,8 +7,6 @@ import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 import org.hessian.server.impl.HelloServiceImpl;
 
-import java.nio.channels.SelectionKey;
-
 /**
  * Created by aayongche on 2016/7/6.
  */
