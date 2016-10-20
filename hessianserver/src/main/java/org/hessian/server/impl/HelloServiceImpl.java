@@ -4,7 +4,7 @@ import com.caucho.hessian.server.HessianServlet;
 import org.hessian.common.HelloService;
 
 /**
- * Created by aayongche on 2016/7/5.
+ * Created by windwant on 2016/7/5.
  */
 public class HelloServiceImpl extends HessianServlet implements HelloService {
     public String hello(String name) {

@@ -10,7 +10,7 @@ import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.XmlWebApplicationContext;
 
 /**
- * Created by aayongche on 2016/7/6.
+ * Created by windwant on 2016/7/6.
  */
 public class HelloServer implements ApplicationContextAware {
 

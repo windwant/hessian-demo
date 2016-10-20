@@ -4,7 +4,7 @@ import org.hessian.common.HelloService;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by aayongche on 2016/7/5.
+ * Created by windwant on 2016/7/5.
  */
 @Service("helloSvr")
 public class HelloServiceImpl implements HelloService {

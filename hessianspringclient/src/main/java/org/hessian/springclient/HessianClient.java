@@ -8,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import java.net.MalformedURLException;
 
 /**
- * Created by aayongche on 2016/7/6.
+ * Created by windwant on 2016/7/6.
  */
 public class HessianClient {
     public static void main(String[] args) {

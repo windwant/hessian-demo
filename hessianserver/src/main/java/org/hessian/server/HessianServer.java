@@ -8,7 +8,7 @@ import org.eclipse.jetty.servlet.ServletHolder;
 import org.hessian.server.impl.HelloServiceImpl;
 
 /**
- * Created by aayongche on 2016/7/6.
+ * Created by windwant on 2016/7/6.
  */
 public class HessianServer {
 
