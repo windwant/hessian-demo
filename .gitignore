@@ -1,11 +1,7 @@
 .idea/
-hessianserver/target/classes/
 *.iml
-hessianclient/target/test-classes/
-hessianclient/target/classes/
-hessianserver/target/test-classes/
-hessianspringserver/target/classes/
-service/target/test-classes/
-service/target/classes/
-hessianspringclient/target/test-classes/
-hessianspringclient/target/classes/
+hessian-client/target
+hessian-server/target
+hessian-springserver/target
+hessian-service/target
+hessian-springclient/target
