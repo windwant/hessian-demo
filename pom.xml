@@ -2,19 +2,19 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.hessian.demo</groupId>
-  <artifactId>hessian-demo</artifactId>
+  <groupId>org.windwant.hessian</groupId>
+  <artifactId>hessian-service</artifactId>
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>hessian-server</module>
     <module>hessian-client</module>
     <module>hessian-springserver</module>
     <module>hessian-springclient</module>
-    <module>hessian-service</module>
+    <module>hessian-common</module>
   </modules>
   <packaging>pom</packaging>
 
-  <name>hessian-demo</name>
+  <name>hessian-service</name>
   <url>http://maven.apache.org</url>
 
   <properties>

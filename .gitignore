@@ -1,6 +1,7 @@
 .idea/
 *.iml
 hessian-client/target
+hessian-common/target
 hessian-server/target
 hessian-springserver/target
 hessian-service/target
