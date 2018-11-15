@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>org.hessian.common</groupId>
-            <artifactId>hessian-service</artifactId>
+            <artifactId>hessian-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
